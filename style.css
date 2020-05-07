@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('/images/bg-intro-desktop.png');
+  background-color: hsl(0, 100%, 74%);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container > div {
+  flex: 1;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+p {
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+.box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.box p {
+  margin: 0;
+}
+
+.blue-box {
+  background-color: hsl(248, 32%, 49%);
+  padding: 20px;
+}
+
+.form-control {
+  margin-bottom: 30px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  font-family: 'Poppins' sans-serif;
+  font-weight: 500;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: 1.3px solid hsl(246, 25%, 77%);
+}
+
+input:focus {
+  border: 1px solid hsl(248, 32%, 49%);
+  outline: none;
+}
+
+button {
+  background-color: hsl(154, 59%, 51%);
+  display: block;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Poppins' sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px 25px;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+button:focus{
+  outline: none;
+}
+
+small {
+  display: block;
+  color: #bbb;
+  font-size: 11px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+small a {
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
+  text-decoration: none;
+}
